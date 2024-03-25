@@ -1529,3 +1529,50 @@ header#header {
 .twc-summary-element-right a {
   text-decoration: none !important;
 }
+
+.action-certificate a {
+  color: white !important;
+  font-family: Avenir Regular !important;
+  font-weight: bold !important;
+  background-color: #eb947e !important;
+  border: none !important;
+}
+
+.wrapper-messages-primary p {
+  font-family: 'Avenir Regular' !important;
+  color: #666 !important;
+}
+
+.footer-logos-container {
+  width: 80%;
+  max-width: 1400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.footer-logos-container img {
+  max-width: 12%;
+  max-height: 70px;
+  margin: 0px 20px;
+}
+
+@media screen and (max-width: 940px) {
+  .footer-logos-container {
+    max-width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    gap: 20px;
+  }
+  
+  .footer-logos-container img {
+    flex: 1;
+    max-width: 12%;
+    max-height: 70px;
+    margin: 0;
+  }
+}
